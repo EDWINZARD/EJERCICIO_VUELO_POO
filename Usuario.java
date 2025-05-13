@@ -1,7 +1,7 @@
 public class Usuario {
     public String NombreUsuario;
-    public String CorreoUsuario;
-    public String ContraseñaUsuario;
+    private String CorreoUsuario;
+    private String ContraseñaUsuario;
 
 
 }
