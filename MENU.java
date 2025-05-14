@@ -2,9 +2,14 @@ import java.util.Scanner;
 
 public class MENU {
     //Ingreso usuario
+    public static void main(String[] args){
+    Scanner Scanner;
+    Scanner = new Scanner(System.in);
 
+    System.out.println("ingrese su usuario: "+NombreUsuario);
+    String inputUsuario;
 
-
+    }
 
 
 
