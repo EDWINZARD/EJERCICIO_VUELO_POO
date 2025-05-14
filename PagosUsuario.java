@@ -4,6 +4,8 @@ public class PagosUsuario {
     public Apellidos String;
     public Nacimiento int;
     public Sexo Stirng;
+    //DatosTickets
+    public numeroTickets int[];
 }
 
 
