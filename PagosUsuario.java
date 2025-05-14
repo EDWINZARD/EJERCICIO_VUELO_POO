@@ -20,14 +20,3 @@ public class PagosUsuario {
     private Vencimiento_Tarjeta int[4];
     private Clave_Tarjeta int[3];
 }
-
-
-
-
-
-
-
-
-
-
-

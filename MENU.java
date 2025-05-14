@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MENU {
+public class Main {
     //Ingreso usuario
     public static void main(String[] args){
         String NombreUsuario = "EDWINZARD";
@@ -18,8 +18,8 @@ public class MENU {
     String inputUsuario;
     inputUsuario = Scanner.nextLine();
 
-    System.out.println("ingrese su contraseña:"+contraseñausuario)
-            String inputcontraseña
+    System.out.println("ingrese su contraseña:"+contraseñausuario);
+            String inputcontraseña;
             inputcontraseña = Scanner.nextLine();
 
     if(inputcorreo.equals(NombreUsuario)){
