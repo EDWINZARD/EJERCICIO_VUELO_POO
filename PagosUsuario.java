@@ -6,6 +6,9 @@ public class PagosUsuario {
     public Sexo Stirng;
     //DatosTickets
     public numeroTickets int[];
+    public numeroMaletas int;
+    public Va_niños_pequeños boolean;
+
 }
 
 
