@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         String NombreUsuario = "EDWINZARD";
         String correousuario = "esermitanov@udistrital.edu.co";
-        String contraseñausuario = "12345";
+        String ContraseñaUsuario = "12345";
 
         Scanner Scanner;
         Scanner = new Scanner(System.in);
@@ -19,7 +19,7 @@ public class Main {
         String inputUsuario;
         inputUsuario = Scanner.nextLine();
 
-        System.out.println("ingrese su contraseña:" + contraseñausuario);
+        System.out.println("ingrese su contraseña:" + ContraseñaUsuario);
         String inputcontraseña;
         inputcontraseña = Scanner.nextLine();
 
