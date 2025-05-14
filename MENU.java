@@ -22,28 +22,19 @@ public class Main {
             String inputcontraseña;
             inputcontraseña = Scanner.nextLine();
 
-    if(inputcorreo.equals(NombreUsuario)){
-        if(inputcorreo.equals(pass)){
-            System.println("¡Inicio"
-            +"de sesion"
-            +"Exitoso!");
-        }
-        else{
-            System.println("contraseña"
-            + "incorrecta");
-        }
-    }
-    else { System.println("Usuario"
-            + "incorrecto");
-
-    }
-    else { System.println("correo"
-                + "incorrecto");
-
+        if (inputcorreo.equals(NombreUsuario)) {
+            if (inputcorreo.equals(pass)) {
+                System.out.println("¡Inicio de sesión exitoso!");
+            } else {
+                System.out.println("Contraseña incorrecta");
+            }
+        } else if (inputUsuario.equals(NombreUsuario)) {
+            System.out.println("Usuario incorrecto");
+        } else {
+            System.out.println("Correo incorrecto");
         }
 
-    }
-    //Ingreso MENU
+        //Ingreso MENU
     public static void main(String[] args){
         Scanner reader = new Scanner(System.in);
     boolean salir= false;
@@ -72,6 +63,5 @@ public class Main {
              System.out.println("datos invalidos");
 
      }
-    }while (!salir);
-    }
+    }while (!salir);}
 }
